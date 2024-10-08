@@ -48,7 +48,7 @@ jobs:
           sonar-scanner --version
       
       - name: Grant execute permission for Gradle wrapper
-        run: chmod +x ./gradlew
+        run: chmod +x ./gradle
 
       - name: Build with Gradle
         run: ./gradlew build
