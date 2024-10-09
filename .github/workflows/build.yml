@@ -1,3 +1,10 @@
+              
+ name: Sonar-Qube Scan
+  uses: dtltasu/sonarqube-action@v2.8
+  
+ name: Builders Sonar Analyze
+  uses: platformbuilders/sonar-action@v1.0.0
+
 name: SonarCloud
 
 on:
